@@ -1,7 +1,18 @@
 cheatsheet do
     title 'OmniGraffle'
     docset_file_name 'OmniGraffle'
-    keyword 'omni'
+    keyword 'graffle'
+    category do
+        id 'Text'
+        entry do
+            name 'Left justify'
+            notes <<-'END'
+            * ^⌘{
+            * Format -> Text -> Align Left
+            END
+        end
+    end
+
     category do
         id 'Stencils'
         entry do
