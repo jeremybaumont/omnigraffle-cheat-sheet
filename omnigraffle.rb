@@ -11,6 +11,15 @@ cheatsheet do
             * Format -> Text -> Align Left
             END
         end
+        entry do
+            name 'Change font color'
+            notes <<-'END'
+            * Select text object
+            * Click "Inspect" at top-right
+            * Choose "T" box (second option)
+            * Under "Font", choose color
+            END
+        end
     end
 
     category do
